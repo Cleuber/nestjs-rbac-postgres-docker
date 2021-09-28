@@ -1,2 +1,9 @@
 # nestjs-rbac-postgres-docker
-NestJS + RBAC + JWT + PostgreSQL + Docker
+To run project:
+
+```docker-compose up ```
+
+
+To run migration:
+
+Enter inside the container and run migration: ``` npm run typeorm migration:run ```
